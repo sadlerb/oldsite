@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Abel' );
+:root{
+  --black: #0b0c10;
+  --lightGrey: #1f2833;
+  --grey: #c5c6c7;
+  --blue: #66fcf1;
+  --darkerblue: #45a29e;
+  font-family: Abel;
+  font-size: 18px;
+  }
+
+body{
+  background-color: var(--black);
+  }
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+h3{
+  color: var(--blue);
+    
+  }
+
+header h1{
+    color: var(--blue);
+  }
+
+p{
+  color: var(--grey);
+  }
+
+li{
+  color: var(--darkerblue);
+  }
+
+h2{
+  color: var(--blue);
+  }
+  
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main div{
+  width: 75%;
+  height: 50%;
+}
+
+
+
+#profile{
+  border-radius: 50%;
+}
+
+#showcase{
+  width: 50%;
+  height: 50%;
+}
+
+#showcase div img{
+  width: 500px;
+  height: auto;
+}
