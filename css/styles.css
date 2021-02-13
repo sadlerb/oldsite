@@ -34,6 +34,7 @@ p{
 
 li{
   color: var(--darkerblue);
+  list-style: none;
   }
 
 h2{
@@ -70,9 +71,10 @@ main div{
 }
 
 #showcase{
-  width: 50%;
+  width: 650px;
   height: 50%;
 }
+
 
 #showcase div img{
   width: 500px;
@@ -86,6 +88,7 @@ main div{
 #showcase-container{
   grid-row: 2;
   grid-column: 2;
+  padding-top: 30px;
 
 }
 #side{
@@ -107,5 +110,28 @@ main div{
   grid-column: 2;
 }
 
+/* unvisited link */
+a:link {
+  color: var(--derkerblue);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: var(--darkerblue);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: var(--darkerblue);
+  text-decoration: none;
+}
 
 
