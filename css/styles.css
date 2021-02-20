@@ -206,3 +206,12 @@ a.github-link:active {
   text-decoration: none;
 
 }
+
+.inText-link:link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+
+
+
