@@ -60,8 +60,8 @@ main{
 }
 
 main div{
-  width: 75%;
-  height: 50%;
+  max-width: 75%;
+  max-height: 50%;
 }
 
 
@@ -80,7 +80,7 @@ main div{
 
 #showcase div img{
   display: block;
-  width: 75%;
+  max-width: 75%;
   height: auto;
 }
 
@@ -148,7 +148,7 @@ a:active {
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
