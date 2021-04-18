@@ -70,9 +70,9 @@ main div{
 }
 
 #showcase{
-  width: 650px;
+  max-width: 50%;
   height: 50%;
-
+  padding-top: 100px;
   align-items: center;
   align-self: center;
 }
